@@ -1,0 +1,14 @@
+cores da empresa 
+
+#ff5d5b - vermelho claro
+
+#ec2324 - vermelho 
+
+
+#26225f - azul 
+
+
+#040404 - preto 
+
+#a12e27 - tipo vinho --- icones talvez 
+
