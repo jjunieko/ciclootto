@@ -8,7 +8,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #a12e27;
+	background:#f0f0f0;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
@@ -23,6 +23,15 @@ body
     left: 1%;
     padding: 10px;
     z-index: 10000000;
+}
+
+.redesocial td a img{
+	margin: -5px;
+	margin-left: 50px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+
 }
 
 h1, h2, h3
@@ -401,8 +410,10 @@ ul.contact li a.icon-rss:before
 	
 #header-wrapper
 {
-	background: #FFF;
+	background-color: #FFF;
+
 }
+
 
 #header
 {
@@ -459,6 +470,7 @@ ul.contact li a.icon-rss:before
 	position: absolute;
 	right: 0;
 	top: 1em;
+	
 }
 
 #menu ul
@@ -748,6 +760,7 @@ ul.contact li a.icon-rss:before
 		background-image: url(./images/Logo/ciclootto\ -\ tela\ inicial.png);
 		background-position: center;
 		background-size: cover;
+		margin-bottom: 5px;
 	}
 
 
