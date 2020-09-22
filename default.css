@@ -2,10 +2,14 @@
 html, body
 {
 	height: 100%;
+	width: 100%;
+
 }
 
 body
 {
+	height: 100%;
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
 	background:#f0f0f0;
@@ -17,24 +21,35 @@ body
 
 .whatsapp{
 	position: fixed;
-	height: 50px;
-	width: 50px;
+	height: 70px;
+	width: 70px;
     top: 82%;
-    left: 1%;
+    left: 90%;
     padding: 10px;
     z-index: 10000000;
 }
 
 .redesocial td a img{
-	margin: -5px;
-	margin-left: 50px;
+
+	margin: 5px;
+	margin-left: 15px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+}
+
+
+.redesocial1 td a img {
+	margin: 5px;
+	margin-left: 15px;
+	align-content: center;
+	justify-items: center;
 	text-align: center;
 	width: 50px;
 	height: 50px;
-
 }
 
-h1, h2, h3
+h1, h2, h3, h4
 {
 	margin: 0;
 	padding: 0;
@@ -75,7 +90,7 @@ a:hover
 .container
 {
 	margin: 0px auto;
-	width: 1200px;
+	width: 100%;
 	
 }
 .container img
@@ -84,7 +99,7 @@ a:hover
 		max-height:170px;
 		align-items: center;
 		width: auto;
-		height: auto
+		height: auto;
 	
 }
 
@@ -143,7 +158,7 @@ a:hover
 	margin-top:20px;
 	width:225px;
   }
-}
+
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
@@ -364,13 +379,7 @@ ul.contact li a.icon-rss:before
 	color: #FFF;
 }
 
-.button:hover
-{
-}
 
-.button:active
-{
-}
 
 .button-big
 {
@@ -411,14 +420,19 @@ ul.contact li a.icon-rss:before
 #header-wrapper
 {
 	background-color: #FFF;
+	display: block;
+	align-content: center;
+	justify-content: space-between;
+	left: 30%;
+
 
 }
 
 
 #header
 {
-	position: relative;
-	height: 100px;
+
+	height: 120px;
 }
 
 /*********************************************************************************/
@@ -464,55 +478,25 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
-
-#menu
-{
-	position: absolute;
-	right: 0;
-	top: 1em;
-	
-}
-
-#menu ul
-{
-	display: inline-block;
-}
-
-#menu li
-{
+.nav justify-content-center {
+	align-items: center;
+	justify-content: center;
 	display: block;
-	float: left;
-	text-align: center;
-	line-height: 60px;
+	top: 10px;
+}
+.nav-item{
+	align-items: center;
+	justify-content: space-between;
+	height: 10px;
+
+}
+.nav-item li a {
+	display: block;
+	align-items: center;
+	justify-content: space-between;
 }
 
-#menu li a, #menu li span
-{
-	display: inline-block;
-	margin-left: 1px;
-	padding: 0em 1.5em;
-	letter-spacing: 0.10em;
-	text-decoration: none;
-	font-size: 1em;
-	text-transform: uppercase;
-	outline: 0;
-	color: #212121;
-	background: #ECECEC;
-}
 
-#menu li:hover a, #menu li.active a, #menu li.active span
-{
-}
-
-#menu .current_page_item a
-{
-	background:  #ff5d5b;
-	color: #FFF;
-}
-
-#menu .icon
-{
-}
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -578,6 +562,7 @@ ul.contact li a.icon-rss:before
 
 #page
 {
+	width: 100%;
 	overflow: hidden;
 	padding: 6em 0em;
 	border-bottom: 2px solid #E3E3E3;
@@ -642,8 +627,8 @@ ul.contact li a.icon-rss:before
 
 #copyright
 {
+	width: 100%;
 	background-color: #000000;
-	height: 50%;
 	overflow: hidden;
 	padding: 5em 0em;
 	border-top: 1px solid rgba(255,255,255,0.08);
@@ -671,8 +656,9 @@ ul.contact li a.icon-rss:before
 
 #featured-wrapper
 {
+	left: 180px;
 	overflow: hidden;
-	padding: 6em 0em;
+	padding: 5em 0em;
 	background: #383838;
 	text-align: center;
 }
@@ -680,6 +666,7 @@ ul.contact li a.icon-rss:before
 #featured
 {
 	overflow: hidden;
+	
 }
 
 #featured .major
@@ -688,6 +675,7 @@ ul.contact li a.icon-rss:before
 	margin-bottom: 3em;
 	padding-bottom: 2em;
 	border-bottom: 1px solid #E8E8E8;
+	
 }
 
 #featured .major h2
@@ -725,33 +713,35 @@ ul.contact li a.icon-rss:before
 	width: 100px;
 	height: 100px;
 	background:#ff5d5b;
-	margin: 0px auto 20px auto;
-	line-height:  100px;
+	margin: 0px auto 10px auto;
+	line-height: 100px;
 	font-size: 3em;
 	text-align: center;
 	color: #FFF;
+	border-radius: 8px;
 }
 
 .column1,  .column2,  .column3,  .column4
 {
-	width: 282px;
+	width: 200px;
+	align-content: center;
+	display: center;
+	
 }
 
 .column1,  .column2
 {
 	float: left;
-	margin-right: 24px;
+	margin-left: 10%;
 }
 
 .column3
 {
 	float: left;
+	margin-left: 10%;
 }
 
-.column4
-{
-	float: right;
-}
+
 
 
 	#header-featured
@@ -761,6 +751,7 @@ ul.contact li a.icon-rss:before
 		background-position: center;
 		background-size: cover;
 		margin-bottom: 5px;
+		
 	}
 
 
@@ -777,13 +768,7 @@ ul.contact li a.icon-rss:before
 	position: relative;
 }
 
-#slider .button
-{
-}
 
-#slider .button:hover
-{
-}
 
 #slider .viewer
 {
@@ -890,6 +875,7 @@ ul.contact li a.icon-rss:before
 	border-top: solid 1px #505050;
 }
 
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -897,8 +883,9 @@ ul.contact li a.icon-rss:before
 
 #footer-wrapper
 {
+
+	width: 100%;
 	overflow: hidden;
-	padding: 6em 0em;
 	background: #383838;
 	text-align: center;
 }
@@ -957,44 +944,8 @@ ul.contact li a.icon-rss:before
 }
 
 
-#extra .button
-{
-	margin-top: 2em;
-}
 
-#extra2
-{
-	overflow: hidden;
-	padding-bottom: 5em;
-}
 
-#extra2 .button
-{
-	margin-top: 2em;
-}
 
-#extra2 .title h2
-{
-	font-size: 2em;
-}
 
-#extra2 .title .byline
-{
-	font-size: 0.80em;
-}
 
-#extra2 #ebox1,
-#extra2 #ebox2
-{
-	width: 560px;
-}
-
-#extra2  #ebox1
-{
-	float: left;
-}
-
-#extra2 #ebox2
-{
-	float: right;
-}
